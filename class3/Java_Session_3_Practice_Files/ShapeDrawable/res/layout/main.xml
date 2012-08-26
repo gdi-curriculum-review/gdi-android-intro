@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:text="Select Width and Height" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+        <EditText android:text="" android:id="@+id/editText1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100px"></EditText>
+        <EditText android:text="" android:id="@+id/editText2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100px"></EditText>
+    </LinearLayout>
+    <TextView android:text="Select Color" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+        <Spinner android:id="@+id/spinner1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/colors"></Spinner>
+    </LinearLayout>
+    <Button android:id="@+id/button1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Draw Now!"></Button>
+
+    <ImageView android:layout_width="fill_parent" android:id="@+id/imageView1" android:layout_height="fill_parent"></ImageView>
+</LinearLayout>

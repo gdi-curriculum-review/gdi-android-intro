@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, shapes drawable!</string>
+    <string name="app_name">Shapes Drawable</string>
+    <string-array name="colors">
+    	<item name="green">Green</item>
+    	<item name="blue">Blue</item>
+    	<item name="magenta">Magenta</item>
+    	<item name="cyan">Cyan</item>
+    </string-array>
+</resources>
